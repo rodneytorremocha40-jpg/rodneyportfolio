@@ -158,7 +158,7 @@
         <section id="contact" class="page-section">
           <h2>Get In Touch</h2>
         <div class="contact-content">
-            <form class="contact-form">
+            <form class="contact-form" action="send_email.php" method="post">
                 <div class="form-group">
                     <input type="text" placeholder="Your Name" required>
                 </div>
@@ -175,8 +175,7 @@
             </form>
         </div>
         </section>
-
-
+    
 <script>
 // -------------------- NAV ACTIVE + SMOOTH SCROLL + SCROLL-SPY --------------------
 const navLinks = document.querySelectorAll('.nav-links a');
@@ -304,5 +303,6 @@ pageSections.forEach(section => observer.observe(section));
 
 </body>
 </html>
+
 
 
